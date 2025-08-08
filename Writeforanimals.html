@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Write for Animals</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Manrope:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stories.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="name">Voiceless Voices</div>
+            <div class="tagline">Speaking for those who can't</div>
+        </div>
+
+        <div class="nav-right">
+            <a href="index.html">Home</a>
+            <a href="PuneNGOs.html">Pune NGOs</a>
+            <a href="Writeforanimals.html">Write for animals</a>
+        </div>
+    </nav>
+
+    <div class="write-for-animals-container">
+        <div class="write-for-animals-header">
+            <h2>Write for Animals</h2>
+        </div>
+        
+        <div class="write-for-animals-description">
+            <p>Share your personal story about your pet or an animal you have helped. Your experience could inspire others!</p>
+        </div>
+        
+        <div class="write-for-animals-box">
+            <form id="storyForm">
+                <div class="form-group">
+                    <label for="name">Your Name (optional):</label>
+                    <input type="text" id="name" name="name" placeholder="e.g. Nick" />
+                </div>
+
+                <div class="form-group">
+                    <label for="story">Your Story:</label>
+                    <textarea id="story" name="story" rows="6" required
+                        placeholder="Tell us about your animal friend or rescue experience..."></textarea>
+                </div>
+
+                <button type="submit">Share My Story</button>
+            </form>
+            
+            <div id="thankyou" style="display:none; margin-top:1em; color:#228B22;">
+                Thank you for sharing your story!
+            </div>
+        </div>
+    </div>
+
+    <script src="stories.js"></script>
+</body>
+</html>

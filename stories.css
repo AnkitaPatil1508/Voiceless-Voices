@@ -1,0 +1,122 @@
+
+.write-for-animals-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 90vh;
+  background-image: url('Images/stories.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 60px 20px 40px;
+}
+
+.write-for-animals-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.write-for-animals-header h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Oswald', 'Manrope', sans-serif;
+}
+
+.write-for-animals-description {
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(51, 51, 51, 0.2);
+}
+
+.write-for-animals-description p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+.write-for-animals-box {
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: left;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(51, 51, 51, 0.2);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.write-for-animals-box label {
+  display: block;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+.write-for-animals-box input,
+.write-for-animals-box textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.write-for-animals-box input:focus,
+.write-for-animals-box textarea:focus {
+  outline: none;
+  border-color: #F5EE60;
+  box-shadow: 0 0 5px rgba(245, 238, 96, 0.3);
+}
+
+.write-for-animals-box button {
+  background-color: #F5EE60;
+  color: #333333;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.write-for-animals-box button:hover {
+  background-color: #333333;
+  color: #F5EE60;
+  border: 2px solid #F5EE60;
+}
+
+#thankyou {
+  background-color: rgba(34, 139, 34, 0.1);
+  border: 1px solid #228B22;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  color: #90EE90 !important;
+  font-weight: 600;
+}
